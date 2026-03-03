@@ -1,0 +1,25 @@
+This repository contains scripts and data for reproducing results for following paper:
+Bleka et al (2016): Improved deconvolution of sequenced based mixtures by extending EuroForMix
+
+
+The folder contains the organised system to perform following:
+
+1) Calculations: Excecute RUNCALCULATIONS.R
+	- Performs MAE estimation and Deconvolution
+	
+2) Comparisons: Excecute RUNCOMPARE.R
+	- Performs comparison between true contributing reference profiles and 
+	deconvolved profiles (aligning profiles).
+	- Creates performance-metrics for the aligned profiles (Brier, accuracy, etc )
+	- Creates result tables showing performance (study-wise)
+
+3) Summary: Excecute RUNCREATESUMMARY.R
+	- Creates tables and figures for summarizing results across studies
+	- Also creates some of the supplementary results
+
+4) Supplementary Analyses: Excecute RUNSUPPLEMENTARY.R
+	- Creates tables and figures for summarizing results for supplementary (MPS-STR dataset)
+	
+
+Other:
+5) Checking reference-evidence overlap: Excecute CHECK_REFEVID_OVERLAP
